@@ -12,6 +12,53 @@ body {
 }
 
 /***********************
+*   Alert Banner
+***********************/
+.alert-banner-container {
+  background-color: #013333;
+}
+
+.alert-banner-content {
+  margin: 0 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.alert-banner-button {
+  margin-left: 1.2em;
+}
+
+.alert-banner-icon {
+  width: 20px;
+  transition: all 200ms;
+}
+
+.alert-banner-icon:hover {
+  scale: 1.1;
+  cursor: pointer;
+}
+
+.close-banner {
+  display: none;
+}
+
+.alert-banner-link {
+  color: #00dcb4;
+  text-decoration: none;
+  transition: all 200ms;
+}
+
+.alert-banner-link:visited {
+  color: #00dcb4;
+}
+
+.alert-banner-link:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+/***********************
 *   Navigation
 ***********************/
 .nav-link,
@@ -83,8 +130,8 @@ header {
   display: flex;
   flex-flow: column;
   align-items: center;
-  position: absolute;
-  top: 110px;
+  position: relative;
+  top: 35px;
 }
 
 #header-name {
