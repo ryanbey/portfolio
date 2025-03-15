@@ -15,7 +15,9 @@ body {
 *   Alert Banner
 ***********************/
 .alert-banner-container {
-  background-color: #013333;
+  /* background-color: #013333; */
+  background: linear-gradient(to left, #013333, #00dcb4aa);
+  padding: 10px 0px;
 }
 
 .alert-banner-content {
@@ -41,6 +43,11 @@ body {
 
 .close-banner {
   display: none;
+}
+
+.alert-banner-text {
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .alert-banner-link {
